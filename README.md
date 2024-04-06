@@ -458,3 +458,45 @@ Focus on "HUMAN" APIs
 <https://pyscript.net>
 
 Showed a ton of cool examples of apps & frameworks built using the library
+
+---
+
+##  I declare an environment! - Reproducibility with and _without_ Docker
+
+Sarah Kaiser
+
+> A software project being called "reproducible" can mean a lot of things, but
+> usually includes a description of how and where the code in your project can
+> be run. Often this means including Python virtual environment, a Conda
+> environment, or even a Docker container to help others replicate your work. In
+> this talk I will introduce some of the most common ways the scientific Python
+> community approaches reproducibility, and what are the advantages and
+> disadvantages of the approaches. I will also share a new way that you can make
+> not only your Python code but your development machine reproducible without
+> Docker containers with a tool called Nix. I will also show an example of using
+> a Nix defined operating system (NixOS) with Docker containers to run my home
+> lab.
+
+<https://github.com/crazy4pi314/pycascades-repro-envs>
+
+1. Good reproducible envs need declarative and imperative specs
+2. A combination of Docker & Nix can make reproducible Python projects easier
+
+
+Reproducible
+
+* for who?
+* on what device?
+* when?
+* with what resources?
+
+Environments
+
+* Declarative: describe the desired final state as comletely as possible
+* Imprerative: provide a list of steps or actions
+
+]![](https://cdn.zappy.app/24a839f728d3445caed5f7ae7bd46cbc.png)
+
+<https://nix.dev/>
+
+<https://nixos.org/>
