@@ -367,3 +367,64 @@ and some pros/cons
 Deeper dive on PyGame
 
 ---
+
+##  The Best Language to Write Python In Is Rust
+
+Trent Hauck
+
+> Python is an excellent language, in part because of how accessible it is. This
+> accessibility means that professionals in finance, science, marketing, etc,
+> often can make use of it for their goals. This also means that for programmers
+> who write tools for these users, Rust can make an excellent language to
+> deliver a fast, stable experience. In this talk we'll discuss more about why
+> you might consider augmenting your Python code with Rust and walk through a
+> case study for how to achieve it.
+
+<https://twitter.com/trent_hauck>
+
+Lots of Python libraries have Rust under the hood.
+
+* Polars
+* Pydantic
+* Ruff
+
+Why use Rust with Python?
+
+* Performance
+* Ease of implentations
+* Ease of distribution
+
+"It might take you a while to get up to speed with Rust.  It's an unforgiving language."
+
+Example of taking a function in Rust to Python package
+
+"traits" like "interfaces", ex: arguments to functions must implemnent `FromPyObject`
+Return type must implement `IntoPyObject`
+
+`PyResult` is a `Result` type for PyO3
+
+`maturin` tool for building the module & installing into the current Python environment.
+
+Discussion of how to add things like:
+
+* function signature
+* docstrings
+* type annotations
+
+Example of a Python class:
+
+* struct
+* pymethods
+
+SDLC - we wronte some rust code, how do we shuip it?
+
+* maturin
+* Maturin tutorial: <https://www.maturin.rs/tutorial>
+
+Can generate a CI workflow (ex a Github actions workflow)
+
+Special Topic: Data Engineering
+
+* Combination of Rust + Python is really good for data intensive tasks
+* Arrow as an Intermideiate, can pass data between Rust & Python without copying
+* pyarrow (Python arrow package)
