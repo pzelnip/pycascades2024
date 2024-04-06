@@ -275,3 +275,26 @@ Jupyrest
 * output schema
 
 <https://github.com/microsoft/jupyrest>
+
+---
+
+## Oh the (Methods) You Can (Make): By Dunder Seuss
+
+Joshua Cannon
+
+> You can make many methods
+> Over 100 to be exact
+> That start with two underscores
+> What do you think of that?
+>
+> The runtime, it calls these
+> At points A or B
+> To do special magic
+> At runtime, you see.
+>
+> You may have seen __getattr__ or __init__
+> But __rfloordiv__? What’s the point of it?
+
+Storytime at Pycascades
+
+*Super entertaining talk*.
