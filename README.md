@@ -176,3 +176,80 @@ This was accounted for, but only applied in one of the two places it needed to b
 Sep 26, 1983, russian detected false alarm of missles coming from US
 
 Value of Human Intervention & supervision/coherence check
+
+---
+
+## Intro to Introspection
+
+Jeremiah Paige
+
+<https://pretalx.com/pycascades-2024/talk/HEZUCW/>
+
+<http://slides.ucodery.com/intro-to-introspection>
+
+
+>Python holds no secrets about your code; except perhaps how to access that information. in this talk you'll find out how to discover almost any information about running python code.
+>
+>    Introduction (2 minutes)
+>        techniques work equally in normal execution, interactive mode, or when debugging.
+>        start with the obvious tools like print() before going deeper
+>    Name discovery (5 minutes)
+>        discover names that will resolve in the current scope
+>        discover attributes on a random object
+>    Description discovery (5 minutes)
+>        how does this object choose to represent itself
+>        get back author notes at runtime
+>    Type discovery (5 minutes)
+>        what is this thing
+>        how does this thing relate to other object
+>    Code discovery (5 minutes)
+>        start using the inspect module
+>        lookup signature of callables
+>        find exact location in py file object was defined
+>    Conclusion (2 minutes)
+        >typically, all information available while reading code i also available when running the code
+>        don't be afraid to peek inside python
+>
+Examine running code without source available
+
+Use of `locals()` & `globals()`
+
+Use of some of the various tools in a REPL like `type`, ``callable` etc
+
+Dig into deeper with the `inspect` module
+
+`signature` is neat
+
+INtrospection axioms
+
+* names resolve inner to outer most scope
+* everything is an object
+* atrribute lookup is based on heritance
+
+Scope Resolution
+
+Names resolve in LEGB order:
+
+* Local
+* Enclosing
+* Global
+* Builtin
+
+Is there a builtin to query Enclosing?
+
+Run through of how the inspect module works
+
+---
+
+## Rest Easy with Jupyrest: Deploy notebooks as web services
+
+Koushik Krishnan
+
+> Jupyter notebooks are awesome! However, a notebook on its own is not a product
+> or a service. Bridging this gap usually involves a complete rewrite into a web
+> service that leaves behind all the awesome-ness of the notebook. What if we
+> didn't have to do this? That's where Jupyrest comes in! Jupyrest is a library
+> I created to solve this exact problem for my team at Microsoft. In this talk
+> I'll show you how you can turn your Jupyter notebooks into a web service
+> without any modifications to it. Jupyrest is being used at Microsoft by data
+> scientists to deploy hundreds of microservices.
