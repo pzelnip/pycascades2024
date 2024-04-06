@@ -4,7 +4,6 @@
 
 ## Types, In My Python?!
 
-
 Piper Thunstrom
 
 <https://pretalx.com/pycascades-2024/talk/HLAM8G/>
@@ -91,3 +90,89 @@ Tips:
 "Good type hinting is like good testing" -- interesting analogy
 
 Do your best while writing, reap the benefits of this later
+
+---
+
+## The Stories Of the Most Infamous Bugs
+
+Ian Zelikman
+
+<https://pretalx.com/pycascades-2024/talk/RHGEQZ/>
+
+> Whenever we write code we eventually make mistakes and have “bugs”. We employ
+> many techniques including testing and reviews to avoid them but some mistakes
+> still make it into production. But what are the most famous "bugs"? How they
+> happened and is there something common we can learn from them?
+
+@izcoder
+
+### Motivation
+
+Can benefit from learning from past mistakes
+
+### What is a Bug
+
+Wikipedia defn
+
+Some discussion of history of the term "bug" or "buggy", goes back farther
+than the Grace Hopper physical bug in a mainframe
+
+### Infamous Bugs
+
+#### Mars Climate Orbiter
+
+1998, collect info about past mars climate, etc
+
+Lost contact after 9 months
+
+Use of metric unit in thrusters vs imperical units used by Nasa
+
+$320M dollar loss
+
+L/M got spec from Nasa, but they didn't follow the spec. But Nasa
+Ack'd & put blame on internal testing procedures that should have
+found the errro much sooner
+
+Bug ticket was filed early, but not proioritized correctly
+
+#### Ariane 5 Explosion
+
+1996, 1st launche of the rocket, carrying 4 sattelites
+
+Guidiances system had overflow bug
+
+$370M loss, between rocket & sattelites
+
+Software package used reliably in one system, reused in a different context,
+and in this case it broke.
+
+Backup system should have kicked in, but in this case backup system
+suffered from same issue
+
+#### AAT&T Long Distance Calls
+
+1990, had outage lasting 9 hours
+
+Substantial PR damange to company, $60M lost revenue, $70M from calls not placed
+
+#### Patriot System Failure
+
+Patriot missles
+
+1990's, 1991, in Saudi Aribia in US Air Force base
+
+Iraqi missle fired to base, patriot missle failed to intercept (at Dahhran)
+
+Long running system, internal clock, precision error had overflow
+
+This was accounted for, but only applied in one of the two places it needed to be
+
+28 people dead, 110 injured, mostly reserve duty personel
+
+8 hour for resetart, system was running for 100 hours
+
+#### World End 1983
+
+Sep 26, 1983, russian detected false alarm of missles coming from US
+
+Value of Human Intervention & supervision/coherence check
