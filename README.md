@@ -298,3 +298,29 @@ Joshua Cannon
 Storytime at Pycascades
 
 *Super entertaining talk*.
+
+---
+
+## Embracing MLOps: Bridging the Gap Between Machine Learning and DevOps
+
+Mayank Jindal
+
+> In the dynamic field of machine learning, MLOps (Machine Learning Operations)
+> has emerged as a crucial discipline combining aspects of machine learning,
+> data science and operations. This talk aims to demystify MLOps differentiating
+> it from traditional DevOps practices and highlighting its growing importance.
+
+Machine Learning definition
+
+MLOps
+
+* Machine learning operations
+* Set of practices to to build deploy & maintain machine learning models
+
+Why MLops
+
+* Speed to deployment
+* Operational efficience
+* Enahance collaboration
+* scalability
+* governance
