@@ -428,3 +428,33 @@ Special Topic: Data Engineering
 * Combination of Rust + Python is really good for data intensive tasks
 * Arrow as an Intermideiate, can pass data between Rust & Python without copying
 * pyarrow (Python arrow package)
+`
+---
+
+## Next Level Python Applications with PyScript
+
+Fabio Pliger
+
+> Zero Installation, massive scalability, mobile support and more. This talk is
+> going to cover the super powers of running Python in the Browser and how to
+> best use PyScript.
+
+@b_smoke
+
+<https://fpliger.pyscriptapps.com/talks-pycascades-2024/latest/>
+
+Creator of Pyscript
+
+JS VS PS: Not a replacement for Javascript, more of an augmentation/complimentary thing
+
+Platform to run Python in the browser
+
+It's a platform
+
+FFI - foreign function interface
+
+Focus on "HUMAN" APIs
+
+<https://pyscript.net>
+
+Showed a ton of cool examples of apps & frameworks built using the library
