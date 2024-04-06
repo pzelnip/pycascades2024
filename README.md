@@ -324,3 +324,46 @@ Why MLops
 * Enahance collaboration
 * scalability
 * governance
+
+MLOps vs DevOps
+
+* model vs code
+* continuous training
+* data dependency
+* monitoring & performance
+
+Model versioning
+
+*tracking and managing changes to models over time
+
+---
+
+## Pythonic Play: Crafting Interactive Worlds with Python in Game Development
+
+Drishti Jain
+
+> Embark on a thrilling journey into the realm of game development where the
+> elegance of Python meets the excitement of interactive experiences! In this
+> talk, I will unravel the captivating world of Python game development,
+> exploring the tools, techniques, and creative possibilities that make Python a
+> formidable language for crafting immersive games.
+
+@drishtijjain
+
+<https://linktr.ee/drishtijjain>
+
+### Game Development
+
+* Collision Detection
+* Rendering
+* Game loops
+* physics
+
+Worked through example of building a snake clone (caterpillar) using turtle & tk
+
+Quick overview libraries for game dev (Pygame, Panda3D, Arcade, Pyglet, Godot Engine),
+and some pros/cons
+
+Deeper dive on PyGame
+
+---
