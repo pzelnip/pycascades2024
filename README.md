@@ -253,3 +253,25 @@ Koushik Krishnan
 > I'll show you how you can turn your Jupyter notebooks into a web service
 > without any modifications to it. Jupyrest is being used at Microsoft by data
 > scientists to deploy hundreds of microservices.
+
+Serverless in a nutshell
+
+* deploy my code "as is"
+* Autmoatic:
+  * scaling
+  * auth
+  * monitoring
+
+Jupyrest
+
+* Deply jupyter notbooks as serverless "notebook functions"
+* define in/out contracts for notebooks
+* Deved at MS in production since 2020
+
+"Notebook Functions"
+
+* id
+* input schema
+* output schema
+
+<https://github.com/microsoft/jupyrest>
