@@ -745,3 +745,44 @@ But do better: make spec classes....
 autocli.py
 
 ---
+
+## Notably Inaccessible -- Data Driven Understanding of Jupyter Notebook Inaccessibility
+
+Venkatesh Potluri
+
+> Jupyter notebooks are versatile tools that open up rich storytelling
+> possibilities by providing the means to interleave code, data and text
+> together. Notebooks are widely adopted in a variety of expert domains such as
+> data science, machine learning, and astronomy making the ability to create and
+> consume them a critical requirement to participate in these professional
+> domains. Notebooks and notebook software (tools and infrastructure to create
+> and share notebooks) however are inaccessible resulting in barriers preventing
+> blind or visually impaired (BVI) experts from participating in these
+> professions.
+>
+> In this talk, I will draw from our systematic large scale analysis on 100000
+> Jupyter notebooks and provide a broad understanding of why these notebooks are
+> inaccessible, and exactly how inaccessible these notebooks really are. I will
+> close with recommendations to infrastructures that drive the notebook pipeline
+> and authoring practices to create and share truly accessible notebooks. It is
+> imperative that we contribute to accessible notebook artifacts and software to
+> make high-skilled work accessible!
+
+<https://blvi.dev>
+
+BVI devs are majority of the physically disabled developer population (accrd SO
+survey 2022)
+
+Employement of data scientisrts is projected to grow 35% from 2022 to 2032 :mindblown:
+
+Notebooks are currently not accessible.
+
+Took 10M Jupyter notebooks, sampled 100K -> 39K python notebooks with images ->
+analyzed source code as well as output figures (giving 340k images)
+
+Many of the top tools don't support alt tags in images
+
+<https://github.com/sudheesh001/matplotlib-a11y/commit/5ef13d5e6bdce4e22d084a8cb1e59380391ed74c>
+
+Really great exploration/overview of challenges w.r.t. to accessible challenges
+in notebooks, grounded in solid research
