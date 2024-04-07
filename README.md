@@ -700,3 +700,48 @@ Test examples
 * `--tracing=on` argument, produce test_results dir, with trace.zip file
 * playwright show-trace test-results
 * use of codegen to generate test skeleton
+
+---
+
+## Designing a Human-Friendly CLI for API-Driven Infrastructure
+
+Oliver Rew
+
+> As Bloomberg’s infrastructure grows and evolves, the tools we use to manage it
+> are becoming increasingly important. To streamline infrastructure management,
+> our team set out to design a REST API and constituent CLI (Command Line
+> Interface) that would comprise a single interface for both programmatic and
+> human interaction with our infrastructure. Traditionally, building a CLI that
+> is tightly coupled to an API requires maintaining a separate codebase, which
+> is tedious and error-prone. Instead, we designed a CLI that dynamically
+> generates commands based on the OpenAPI JSON documentation. However, since
+> APIs are designed for computer interaction, we designed our API to include the
+> information needed to implement a human-friendly CLI. Leveraging Python,
+> FastAPI, and numerous other open source projects, we built a stable,
+> extensible tool that greatly improves how we interact with our infrastructure.
+
+Tool built at Bloomberg
+
+Tightly coupled REST API & CLI to drive it
+
+What if CLI was based on OpenAPI spec?
+
+First stab direct mapping between REST API and CLI interface, but led to
+poor CLI interface (verbose, etc)
+
+Next idea: enrich the API docs with details to power/define the CLI generation
+
+Issue was ooutput formatting, JSON isn't particularly human readable, so use
+Jinja templates to format into tables, etc.  Allows for different formatted outputs
+(ex: `--csv` for CSV formatted output, etc)
+
+Make required arguments positional, cuts down on verbosity of command line
+
+Use of FastAPI for the doc generation, leverage the `openapi_extra` param to enrich
+docs with needed data for the CLI gen.
+
+But do better: make spec classes....
+
+autocli.py
+
+---
