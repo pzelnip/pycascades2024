@@ -570,6 +570,8 @@ Sam Edwardes (dude we had lunch with)
 
 <https://github.com/SamEdwardes>
 
+<https://github.com/SamEdwardes/pycascades-2024-beautiful-reporting-with-quarto>
+
 ### PyOpenSci
 
 community around scientific packages
@@ -609,3 +611,40 @@ Kingdom of Fear
 ### PursuedPyBear
 
 quick demo of ppb
+
+## Building GraphQL microservices using FastAPI
+
+Aby M Joseph and Thameem Karakkoth
+
+>FastAPI is a Python web framework built on top of the ASGI standard. The fusion
+>of GraphQL and FastAPI emerges as a pivotal approach for constructing agile and
+>scalable microservices. This talk delves into the symbiotic relationship
+>between GraphQL's query flexibility and FastAPI's high-performance
+>capabilities. Attendees will gain insights into seamless integration
+>techniques, leveraging FastAPI's asynchronous framework, and GraphQL's
+>expressive querying.
+
+Overview of REST, pros/cons (overfetching, underfetching)
+
+Overview of GraphQL
+
+GraphQL operations (query, mutation)
+
+Cheeseburger analogy
+
+GraphQL Python libraries
+
+* Code First
+  * Graphene
+  * Strawberry
+* Schema First
+  * Ariadne
+  * some other?
+
+FastAPI overview
+
+Code snippet of using graphene with FastAPI to do a blog query
+
+GraphQL Federation, compbining multiple graphql services?
+
+---
