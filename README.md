@@ -805,3 +805,61 @@ Scott Shawcroft
 Demo of working with <https://www.adafruit.com/product/4500>
 
 `tio`
+
+## Containerizing Python: Crafting Better and Efficient Containers
+
+Avik Basu
+
+> Containerization, particularly with tools like Docker, has become a
+> cornerstone in deploying applications efficiently. Building a Docker image for
+> Python applications is generally uncomplicated, yet optimizing these images
+> requires extra work. Notably, many of these >optimizations are uniquely
+> tailored to Python.
+>
+> This talk focuses on techniques and best practices to build more efficient
+> Docker images for Python in order to generate reproducible and quicker builds
+> while reducing the image sizes at >the same time.
+
+<https://github.com/ab93>
+
+Containerization Basics
+
+* what's a container, image, etc
+* benefits of containers
+
+Why care about efficient images?
+
+* Slower build times
+* larger size images
+  * more storage
+  * longer download times
+* Security risks
+  * older deps can create vulnerabilities
+
+How do we measure efficiency?
+
+1. Uncompressed image size
+2. initial (very first) build time
+3. rebuild time after a code change
+4. rebuild time after a dependency change
+
+Worked through an example of optimizing the docker build process for a python
+based image.  Mostly covered some of the basic things like ordering steps to
+leverage the cache, etc
+
+Optimization #1 - order matters
+
+Optimiization #2 - pin dependencies & disable pip cache
+
+* improves reproducibility
+* `PIP_NO_CACHE_DIR`
+
+Optimization #3 - slimmer base image
+
+Optimization #4 - combine the layers
+
+Optimization #4 - multi-stage builds
+
+Optimization #5 - cache mount
+
+<github.com/ab93/dockerdemo>
