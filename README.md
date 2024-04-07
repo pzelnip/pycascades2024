@@ -310,6 +310,8 @@ Mayank Jindal
 > data science and operations. This talk aims to demystify MLOps differentiating
 > it from traditional DevOps practices and highlighting its growing importance.
 
+(virtual talk)
+
 Machine Learning definition
 
 MLOps
@@ -368,7 +370,7 @@ Deeper dive on PyGame
 
 ---
 
-##  The Best Language to Write Python In Is Rust
+## The Best Language to Write Python In Is Rust
 
 Trent Hauck
 
@@ -428,7 +430,7 @@ Special Topic: Data Engineering
 * Combination of Rust + Python is really good for data intensive tasks
 * Arrow as an Intermideiate, can pass data between Rust & Python without copying
 * pyarrow (Python arrow package)
-`
+
 ---
 
 ## Next Level Python Applications with PyScript
@@ -438,6 +440,8 @@ Fabio Pliger
 > Zero Installation, massive scalability, mobile support and more. This talk is
 > going to cover the super powers of running Python in the Browser and how to
 > best use PyScript.
+
+(virtual talk)
 
 @b_smoke
 
@@ -461,7 +465,7 @@ Showed a ton of cool examples of apps & frameworks built using the library
 
 ---
 
-##  I declare an environment! - Reproducibility with and _without_ Docker
+## I declare an environment! - Reproducibility with and _without_ Docker
 
 Sarah Kaiser
 
@@ -500,3 +504,108 @@ Environments
 <https://nix.dev/>
 
 <https://nixos.org/>
+
+---
+
+##  Kandinsky: Using KMeans (and friends) to play with the colors of photograph(s)
+
+Shaurya Agarwal
+
+> Clustering is tricky yet absolutely essential for many a Machine Learning
+> initiative. The what, the how and the why confound each time we look at the
+> data, whether it is customer segmentation (or cohort) analysis or it is
+> finding centers of influence or breaking down a population into groups to
+> build different models for each.
+>
+> Studying clustering algorithms like KMeans using toy datasets is insufficient
+> (and often tedious) because it does not let you experience real-world
+> problems. For e.g. the problem when the centroids don't settle, or situations
+> where we have too many or too few clusters. Which distance measure to use and
+> when? How to prepare (normalize? standardize?) the dataset for clustering?
+>
+> Also, not too many real-world scenarios are "visual", unless we plot a graph
+> or two, and that fails when we deal with higher dimensions.
+>
+> What if we could use a non-trivial but visual data source? Like the colors and
+> pixels of a photograph, where we could see the data that went in and the
+> resultant output clusters? The obvious takeaways of this talk, in my
+> experience, are that Data Science and Data Engineering practitioners gain a
+> deeper understanding of what's going on in the clustering algorithms in a fun,
+> very "visual" and engaging manner; and also build a better intuition about the
+> best approach to take for solving a problem.
+
+(virtual talk)
+
+Kandinsky <https://github.com/shauryashaurya/kandinsky>
+
+---
+
+## Day 2
+
+## Lightning Talks
+
+### Mapping Tomorrows Eclipse path with geopandas and pyscript
+
+Christy Heaton
+
+<mas.to/@christyheaton>
+]
+<https://pyscript.com/@cheaton/2024-eclipse>
+
+### How to do the same thing over and over again
+
+@JessicaGarson
+
+Snr dev advocate at Elastic
+
+script for updating data -> google cloud function -> Google Cloud scheduler to update index
+
+<https://github.com/JessicaGarson/>
+
+### Beautiful Reporting With Quarto
+
+Sam Edwardes (dude we had lunch with)
+
+<https://quarto.org/>
+
+<https://github.com/SamEdwardes>
+
+### PyOpenSci
+
+community around scientific packages
+
+<https://www.pyopensci.org/>
+
+Python packaging guide call out <https://www.pyopensci.org/python-package-guide/>
+
+### Trading & Python: THe Money Combination
+
+Samyak Jain
+
+@SamyakJainIND
+
+Renko Charts vs Candlestick Charts
+
+<https://tradewithpython.com/>
+
+### Power To The People Who Teache ....
+
+Sheena
+
+""The average student tutored one to one using mastery learning techniques performed 2  std deviations better than students educatin in a calassroom envirobnment"
+
+Mastery based learning & 1:1 tutoring
+
+Growth vs Fixed mindset
+
+### The End of Days [joyfully]
+
+Madison Swain-Bowden
+
+Minori Sanchiz-Fung poems
+
+Kingdom of Fear
+
+### PursuedPyBear
+
+quick demo of ppb
