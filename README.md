@@ -592,7 +592,7 @@ Renko Charts vs Candlestick Charts
 
 ### Power To The People Who Teache ....
 
-Sheena
+Sheena O'Connell
 
 ""The average student tutored one to one using mastery learning techniques performed 2  std deviations better than students educatin in a calassroom envirobnment"
 
@@ -648,3 +648,55 @@ Code snippet of using graphene with FastAPI to do a blog query
 GraphQL Federation, compbining multiple graphql services?
 
 ---
+
+## Testing your web app with Playwright
+
+Sheena O'Connell
+
+> Once upon a time, if you wanted a truly modern web frontend experience for
+> your Python web app you would have limited options in how to pull it off. A
+> lot of people would reach for heavy frontend tools and frameworks such as
+> React, Vue or one of their many, many competitors. And those tools generally
+> have their recommendations around testing.
+>
+> Things are shifting a bit - tools like HTMX and AlpineJS are taking Python Web
+> dev by storm and simplifying the creation of modern frontends. A Python web
+> app can now take on the full responsibility of producing a modern frontend. So
+> it would be good to test them in Python as well.
+>
+> This is where Playwright comes in. It promises to enable reliable end-to-end
+> testing for modern web apps. And it has Python bindings. swoon
+>
+> In this talk, I'll give you a little tour of Playwright and how to use it in
+> your app. I'll demo some workflows, patterns, tips, and tricks.
+
+<https://sheenaoc.com>
+
+<https://sheenarbw.github.io/pres-playwright-2024-pycascades/>
+
+"Python is my love language"
+
+htmx + alpine.js == match made in heaven
+
+Sample todo app
+
+Testing
+
+* standard unit testing is insufficient
+* but you should still write them
+* enter playwright
+* reliance e2e testing for modern waeb apps
+* fire up a browser & interacts with the browser
+* lots of extra test goodies (expect, trace, screenshot, etc)
+
+Keynote: Testing Modern Web Apps Like A Champion with Andrew Knight (from DjangoCon)
+
+Test examples
+
+* using Pytest
+* live_server & page fixtures
+* page methods: `page.wait_for_selector()`, fill(), get_by_role()
+* `--slowmo` argument, for slowing test runs down
+* `--tracing=on` argument, produce test_results dir, with trace.zip file
+* playwright show-trace test-results
+* use of codegen to generate test skeleton
