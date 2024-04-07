@@ -786,3 +786,22 @@ Many of the top tools don't support alt tags in images
 
 Really great exploration/overview of challenges w.r.t. to accessible challenges
 in notebooks, grounded in solid research
+
+---
+
+## Cutting the USB cord: wirelessly programming CircuitPython
+
+Scott Shawcroft
+
+> Come learn how to program CircuitPython wirelessly over Bluetooth and WiFi.
+> CircuitPython is a version of Python designed for small computers used in
+> electronics projects called microcontrollers. Bluetooth is great for
+> connecting devices to a phone or tablet on the go. At home, WiFi simplifies
+> connecting to a multitude of devices without needing to plug into them
+> directly. Both are also great for devices that are hard to access.
+
+<https://circuitpython.org>
+
+Demo of working with <https://www.adafruit.com/product/4500>
+
+`tio`
