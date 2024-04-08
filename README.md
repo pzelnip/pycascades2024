@@ -889,3 +889,17 @@ Analogy for problem solving
 Advent of Code 2022, Problem #5
 
 Harbor, stacks, etc
+
+---
+
+## PyLadies Panel: Talking about experiences and roles within Tech communities.
+
+Christy Heaton, Mariatta, Lynn Root, Luciana Abud
+
+> PyLadies Panel: Talking about experiences and roles within the Python community.
+
+13 men have been promoted to python core dev since the last woman
+
+PyPodcats - hidden figures of Python podcast
+
+<https://pypodcats.live/>
