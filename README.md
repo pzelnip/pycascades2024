@@ -600,6 +600,8 @@ Mastery based learning & 1:1 tutoring
 
 Growth vs Fixed mindset
 
+<https://sheenarbw.github.io/pres-power-to-the-people-who-teach-people-to-code/#/1>
+
 ### The End of Days [joyfully]
 
 Madison Swain-Bowden
