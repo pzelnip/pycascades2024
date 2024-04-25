@@ -822,6 +822,8 @@ Avik Basu
 > Docker images for Python in order to generate reproducible and quicker builds
 > while reducing the image sizes at >the same time.
 
+<https://github.com/ab93/dockerdemo>
+
 <https://github.com/ab93>
 
 Containerization Basics
